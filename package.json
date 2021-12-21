@@ -1,0 +1,29 @@
+{
+  "name": "react-authentication",
+  "private": true,
+  "scripts": {
+    "start": "webpack server --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
