@@ -1,7 +1,9 @@
-$color: red;
-
 body {
   margin: 0;
   font-size: 18px;
-  color: $color;
+  font-family: -apple-system, "system-ui", Roboto, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
